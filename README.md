@@ -28,8 +28,6 @@ Things you may want to cover:
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false, unique: true|
-|e-mail|string|null: false, unique: true|
-|password|string|null: false, unique: true|
 |message_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
 
