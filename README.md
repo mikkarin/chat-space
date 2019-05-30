@@ -38,3 +38,17 @@ Things you may want to cover:
 - has_many :groups, through: :members
 - has_many :members
 - has_many :messages
+
+## groupsテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|group_name|string|null: false, unique: true|
+|message_id|integer|null: false, foreign_key: true|
+|user_id|integer|null: false, foreign_key: true|
+
+### Association
+- has_many :members
+- has_many :users, through: members
+- has_many :messages
+
