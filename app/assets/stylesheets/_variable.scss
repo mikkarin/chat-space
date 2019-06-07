@@ -1,0 +1,8 @@
+$mainGrayColor: #434A54;
+$lightGrayColor: #999999;
+
+@mixin text() {
+  display: inline-block;
+  font-weight: bold;
+}
+
