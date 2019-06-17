@@ -1,5 +1,16 @@
 $mainGrayColor: #434A54;
 $lightGrayColor: #999999;
+$light_blue: #38AEF0;
+$white: white;
+$side_blue_dark: #253141;
+$side_header_font: 16px;
+$side_blue_light: #2f3e51;
+$side_group_name: 15px;
+$side_group_message: 11px;
+
+@mixin flexbox() {
+  font-weight: bold;
+}
 
 @mixin text() {
   display: inline-block;
